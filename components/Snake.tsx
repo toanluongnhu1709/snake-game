@@ -137,7 +137,7 @@ export default function Home() {
                 className={`w-5 h-5 border border-gray-200 
                 ${
                   snake.some((segment) => segment.x === x && segment.y === y) &&
-                  "bg-green-500"
+                  "bg-yellow-500"
                 }
                 ${food.x === x && food.y === y && "bg-red-500"}
                 `}
